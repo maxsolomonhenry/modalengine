@@ -16,14 +16,14 @@ g++ -I/Users/maxsolomonhenry/Documents/cprojects/stk-4.6.0/include/ -L/Users/max
 
 (2) Run the compiled code with the following specifications:
 
-./a.out <notein> <noteout> <velocity> <duration>
+./a.out \<notein\> \<noteout\> \<velocity\> \<duration\>\
 
-Where <notein> is a value from 0-127 indicating the midi pitch of the analyzed sample,
-<noteout> is a value from 0-127 specifying the desired output pitch (also in midi),
-<velocity> is a value from 0-127 indicating note output velocity (higher = louder and more overtones), and
-<duration> is a value from 0.1 - 6 indicating the desired note duration time in seconds.
+Where \<notein\> is a value from 0-127 indicating the midi pitch of the analyzed sample,\
+\<noteout\> is a value from 0-127 specifying the desired output pitch (also in midi),\
+\<velocity\> is a value from 0-127 indicating note output velocity (higher = louder and more overtones), and\
+\<duration\> is a value from 0.1 - 6 indicating the desired note duration time in seconds.
 
-***note, please don't use the < > brackets when passing your parameters!
+***note, please don't use the \< \> brackets when passing your parameters!
 
 (3) Enjoy.
 
@@ -31,7 +31,7 @@ Where <notein> is a value from 0-127 indicating the midi pitch of the analyzed s
 
 Thank you for your interest.
 
-// Max Henry
-// McGill University
-// Montreal, Qc
+// Max Henry\
+// McGill University\
+// Montreal, Qc\
 // April 15, 2019.
