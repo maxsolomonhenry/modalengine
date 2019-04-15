@@ -31,7 +31,7 @@ Where <notein> is a value from 0-127 indicating the midi pitch of the analyzed s
 
 Thank you for your interest.
 
-Max Henry
-McGill University
-Montreal, Qc
-April 15, 2019.
+// Max Henry
+// McGill University
+// Montreal, Qc
+// April 15, 2019.
