@@ -8,6 +8,8 @@ It is in two parts, a MATLAB script and a C++ program.  The MATLAB script does t
 Note:: the synthesis toolkit (stk) is required to compile the C++ code.
 https://ccrma.stanford.edu/software/stk/
 
+(-1) Download and expand modalengine.zip — it shouldn’t matter where this is on your computer, so long as all of the contents stay within this subdirectory.
+
 (0) If you haven't already, compile the C++ code.  You will need STK, and you will need to specify both the include and library paths.  Here's how this looks on my machine (you will have to change the paths as necessary):
 
 g++ -I/Users/maxsolomonhenry/Documents/cprojects/stk-4.6.0/include/ -L/Users/maxsolomonhenry/Documents/cprojects/stk-4.6.0/src/ -D__MACOSX_CORE__ 307finalWAV.cpp -lstk -lpthread -framework CoreAudio -framework CoreMIDI -framework CoreFoundation
