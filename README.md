@@ -1,4 +1,4 @@
-# modalengine
+<pre># modalengine
 Modal Analysis and Synthesis Engine
 
 This code will analyze a .wav file of a single recorded note for its modal resonant structure, and attempt to generate a synthesis engine from that single note.
@@ -33,7 +33,8 @@ Where \<notein\> is a value from 0-127 indicating the midi pitch of the analyzed
 
 Thank you for your interest.
 
-// Max Henry\
-// McGill University\
-// Montreal, Qc\
+// Max Henry
+// McGill University
+// Montreal, Qc
 // April 15, 2019.
+</pre>
