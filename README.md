@@ -23,12 +23,12 @@ This will output a csv file to be read by the C++ component.
 
 (2) Run the compiled code with the following specifications:
 
-./a.out <notein> <noteout> <velocity> <duration>
+./a.out \<notein\> \<noteout\> \<velocity\> \<duration\>
 
-Where <notein> is a value from 0-127 indicating the midi pitch of the analyzed sample,
-<noteout> is a value from 0-127 specifying the desired output pitch (also in midi),
-<velocity> is a value from 0-127 indicating note output velocity (higher = louder and more overtones), and
-<duration> is a value from 0.1 - 6 indicating the desired note duration time in seconds.
+Where \<notein\> is a value from 0-127 indicating the midi pitch of the analyzed sample,
+\<noteout\> is a value from 0-127 specifying the desired output pitch (also in midi),
+\<velocity\> is a value from 0-127 indicating note output velocity (higher = louder and more overtones), and
+\<duration\> is a value from 0.1 - 6 indicating the desired note duration time in seconds.
 
 (3) Enjoy.
 
